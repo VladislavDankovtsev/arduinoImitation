@@ -1,6 +1,4 @@
-package ru.dankovtsev.modlel;
-
-import java.time.LocalDateTime;
+package ru.dankovtsev.model;
 
 public class TemperatureAndHumidity {
 

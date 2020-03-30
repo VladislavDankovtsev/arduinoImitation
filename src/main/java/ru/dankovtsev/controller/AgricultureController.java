@@ -5,9 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import ru.dankovtsev.modlel.Agriculture;
-import ru.dankovtsev.modlel.SoilMoisture;
-import ru.dankovtsev.modlel.TemperatureAndHumidity;
+import ru.dankovtsev.model.SoilMoisture;
+import ru.dankovtsev.model.TemperatureAndHumidity;
 import ru.dankovtsev.service.AgricultureService;
 
 @RestController
