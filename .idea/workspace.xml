@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9a58a14-b62b-4fa6-ac0b-3fb3b744d47b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/controller/SmartHomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/model/SmartHomeClimatControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/model/SmartHomeElevator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/model/SmartHomeLighting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/model/SmartHomeSecurity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/service/SmartHomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/controller/ProductionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/model/Production.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/service/ProductionServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/controller/AgricultureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/controller/AgricultureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/modlel/Agriculture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/modlel/SoilMoisture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/model/SoilMoisture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/modlel/TemperatureAndHumidity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/model/TemperatureAndHumidity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/service/AgricultureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/service/AgricultureService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/dankovtsev/controller/AgricultureController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dankovtsev/controller/AgricultureController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/dankovtsev/modlel/Agriculture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/dankovtsev/modlel/SoilMoisture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/dankovtsev/modlel/TemperatureAndHumidity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/dankovtsev/service/AgricultureService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dankovtsev/service/AgricultureService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.dankovtsev.model" />
       <recent name="ru.dankovtsev" />
       <recent name="ru.dankovtsev.service" />
       <recent name="ru.dankovtsev.controller" />
@@ -102,50 +90,67 @@
       <option name="presentableId" value="Default" />
       <updated>1585560356415</updated>
       <workItem from="1585560359332" duration="3533000" />
-      <workItem from="1585580529634" duration="4328000" />
+      <workItem from="1585580529634" duration="4449000" />
+      <workItem from="1585647679059" duration="2753000" />
     </task>
+    <task id="LOCAL-00001" summary="and arduino information for SmartHome">
+      <created>1585588035828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585588035828</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="and arduino information for SmartHome" />
+    <option name="LAST_COMMIT_MESSAGE" value="and arduino information for SmartHome" />
   </component>
   <component name="WindowStateProjectService">
     <state x="754" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585581017486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="754" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585581017486" />
-    <state width="1323" height="390" key="GridCell.Tab.0.bottom" timestamp="1585585321060">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1585588032218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="390" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585585321060" />
-    <state width="1323" height="390" key="GridCell.Tab.0.center" timestamp="1585585321060">
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585588032218" />
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom" timestamp="1585652022629">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="390" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585585321060" />
-    <state width="1323" height="390" key="GridCell.Tab.0.left" timestamp="1585585321059">
+    <state width="1323" height="207" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585652022629" />
+    <state width="1323" height="207" key="GridCell.Tab.0.center" timestamp="1585652022629">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="390" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585585321059" />
-    <state width="1323" height="390" key="GridCell.Tab.0.right" timestamp="1585585321060">
+    <state width="1323" height="207" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585652022629" />
+    <state width="1323" height="207" key="GridCell.Tab.0.left" timestamp="1585652022629">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="390" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585585321060" />
-    <state width="1323" height="390" key="GridCell.Tab.1.bottom" timestamp="1585585321061">
+    <state width="1323" height="207" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585652022629" />
+    <state width="1323" height="207" key="GridCell.Tab.0.right" timestamp="1585652022629">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="390" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585585321061" />
-    <state width="1323" height="390" key="GridCell.Tab.1.center" timestamp="1585585321061">
+    <state width="1323" height="207" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585652022629" />
+    <state width="1323" height="207" key="GridCell.Tab.1.bottom" timestamp="1585652022630">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="390" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585585321061" />
-    <state width="1323" height="390" key="GridCell.Tab.1.left" timestamp="1585585321060">
+    <state width="1323" height="207" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585652022630" />
+    <state width="1323" height="207" key="GridCell.Tab.1.center" timestamp="1585652022630">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="390" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585585321060" />
-    <state width="1323" height="390" key="GridCell.Tab.1.right" timestamp="1585585321061">
+    <state width="1323" height="207" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585652022630" />
+    <state width="1323" height="207" key="GridCell.Tab.1.left" timestamp="1585652022629">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="390" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585585321061" />
+    <state width="1323" height="207" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585652022629" />
+    <state width="1323" height="207" key="GridCell.Tab.1.right" timestamp="1585652022630">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="207" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585652022630" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1585580973152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
