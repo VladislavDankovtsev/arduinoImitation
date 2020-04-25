@@ -6,10 +6,10 @@ import ru.dankovtsev.model.Production;
 
 @Service
 public class ProductionServer {
-    public static Integer c;
-    public static Integer b;
+    public static int c =0 ;
+    public static int b=0 ;
     public Production online(){
-        c=(int) DoubleRounder.round(Math.random()*5,0)+1;
+        c++;
         b=c+1;
         if (c>=6) c=1;
         if (b>=6) b=1;
