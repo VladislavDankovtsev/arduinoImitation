@@ -20,10 +20,13 @@ public class ProductionServer {
         Production production = new Production();
         production.setManipulator1(c);
         production.setManipulator2(b);
-        if (d>3)
-            production.setStatus("on");
-        else
-            production.setStatus("off");
+        if (d>3) {
+            production.setStatus1("on");
+            production.setStatus2("on");
+        }
+        else{
+            production.setStatus1("off");
+            production.setStatus2("off");}
         return production;
     }
 }

@@ -7,11 +7,11 @@ import ru.dankovtsev.model.Transport;
 
 @Service
 public class TransportService {
-    public static Double x = 37.122223;
-    public static Double y = 37.122223;
+    public static Double x = 37.1;
+    public static Double y = 45.1;
     public Transport online(){
-        x=x+0.0001;
-        y=y+0.0002;
+        x=x+0.1;
+        y=y+0.2;
         Transport transport = new Transport();
         transport.setStatus("on");
         transport.setX(x);
