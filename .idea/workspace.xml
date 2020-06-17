@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9a58a14-b62b-4fa6-ac0b-3fb3b744d47b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/arduinoImitation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/service/AgricultureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/service/AgricultureService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/service/ProductionServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/service/ProductionServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/service/TransportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/service/TransportService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/dankovtsev/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dankovtsev/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/dankovtsev/service/AgricultureService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dankovtsev/service/AgricultureService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +110,7 @@
       <workItem from="1589749952559" duration="13000" />
       <workItem from="1589919617906" duration="5711000" />
       <workItem from="1590338005924" duration="1358000" />
-      <workItem from="1592437080117" duration="301000" />
+      <workItem from="1592437080117" duration="914000" />
     </task>
     <task id="LOCAL-00001" summary="and arduino information for SmartHome">
       <created>1585588035828</created>
@@ -149,11 +140,29 @@
       <option name="project" value="LOCAL" />
       <updated>1589735663124</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="обновление pom.xml">
+      <created>1592437562911</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592437562911</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="and arduino information for SmartHome" />
@@ -161,7 +170,9 @@
     <MESSAGE value="изменение формирования ответа на производство и транспорт" />
     <MESSAGE value="добавления условия фрмирования ответа на production" />
     <MESSAGE value="добавление генерации безопасности" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавление генерации безопасности" />
+    <MESSAGE value="добавление pom.xml" />
+    <MESSAGE value="обновление pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="обновление pom.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1589727290080">
@@ -176,30 +187,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589728422012" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1592437440621">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1592437561496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592437440621" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592437561496" />
     <state x="121" y="119" key="FileChooserDialogImpl" timestamp="1585658915060">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="121" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585658915060" />
-    <state width="1323" height="266" key="GridCell.Tab.0.bottom" timestamp="1592437414487">
+    <state width="1323" height="272" key="GridCell.Tab.0.bottom" timestamp="1592437962845">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592437414487" />
-    <state width="1323" height="266" key="GridCell.Tab.0.center" timestamp="1592437414487">
+    <state width="1323" height="272" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592437962845" />
+    <state width="1323" height="272" key="GridCell.Tab.0.center" timestamp="1592437962844">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592437414487" />
-    <state width="1323" height="266" key="GridCell.Tab.0.left" timestamp="1592437414487">
+    <state width="1323" height="272" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592437962844" />
+    <state width="1323" height="272" key="GridCell.Tab.0.left" timestamp="1592437962844">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592437414487" />
-    <state width="1323" height="266" key="GridCell.Tab.0.right" timestamp="1592437414487">
+    <state width="1323" height="272" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592437962844" />
+    <state width="1323" height="272" key="GridCell.Tab.0.right" timestamp="1592437962845">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="266" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592437414487" />
+    <state width="1323" height="272" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592437962845" />
     <state width="637" height="341" key="GridCell.Tab.1.bottom" timestamp="1590339863317">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
